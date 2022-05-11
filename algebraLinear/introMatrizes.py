@@ -76,4 +76,7 @@ y = np.array([[11,12,13],[14,15,16],[17,18,19]])
 #adição e subtração 
 print(x+y)
 print(x-y)
-#
+#multiplicação
+print(np.dot(x,y))
+#divisão 
+print(np.dot(x,np.linalg.inv(y)))
